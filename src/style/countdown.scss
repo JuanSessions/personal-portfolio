@@ -1,0 +1,190 @@
+svg {
+    display: inline-block;
+}
+
+.no-select {
+    cursor: default;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.film-container {
+    width: 100%;
+    height: 100%;
+    background: url('//res.cloudinary.com/thdoan/image/upload/v1509581279/countdown/film_grain-small.gif') no-repeat;
+    background-size: 100% 100%;
+}
+
+.film-countdown,
+.message-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.message-container text {
+    font: normal 28px Calibri, sans-serif;
+    opacity: 0;
+}
+
+body.message .film-container {
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+body.message .message-container text {
+    opacity: 1;
+    transition: opacity 1.5s;
+}
+
+.numbers text {
+    fill: black;
+    font: bold 120px Arial, sans-serif;
+    letter-spacing: -10px;
+    opacity: 0;
+}
+
+.circle01 {
+    fill: none;
+    stroke: #111;
+    stroke-width: 1.5px;
+}
+
+.circle02 {
+    fill: none;
+    stroke: rgba(0, 0, 0, 0.3);
+    stroke-dasharray: 1 3200;
+    stroke-width: 989;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+}
+
+.line01,
+.line02 {
+    stroke: #deedee;
+}
+
+.rectangle01 {
+    fill: gray;
+}
+
+
+/*** END RADIO DIAL ***/
+
+.animated-flicker {
+    height: 100%;
+    animation: flicker 10s 1;
+    opacity: 0.2;
+}
+
+.animated-rotate {
+    animation: rotate 1s 10;
+}
+
+.animated-text1 {
+    animation: countdown 1s 1;
+    animation-delay: 0s;
+}
+
+.animated-text2 {
+    animation: countdown 1s 1;
+    animation-delay: 1s;
+}
+
+.animated-text3 {
+    animation: countdown 1s 1;
+    animation-delay: 2s;
+}
+
+.animated-text4 {
+    animation: countdown 1s 1;
+    animation-delay: 3s;
+}
+
+.animated-text5 {
+    animation: countdown 1s 1;
+    animation-delay: 4s;
+}
+
+.animated-text6 {
+    animation: countdown 1s 1;
+    animation-delay: 5s;
+}
+
+.animated-text7 {
+    animation: countdown 1s 1;
+    animation-delay: 6s;
+}
+
+.animated-text8 {
+    animation: countdown 1s 1;
+    animation-delay: 7s;
+}
+
+.animated-text9 {
+    animation: countdown 1s 1;
+    animation-delay: 8s;
+}
+
+.animated-text10 {
+    animation: countdown 1s 1;
+    animation-delay: 9s;
+}
+
+@keyframes countdown {
+    0% {
+        opacity: 1;
+    }
+    99% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes flicker {
+    0% {
+        opacity: 0.45;
+    }
+    10% {
+        opacity: 0.7;
+    }
+    23% {
+        opacity: 0.85;
+    }
+    30% {
+        opacity: 0.4;
+    }
+    41% {
+        opacity: 0.6;
+    }
+    46% {
+        opacity: 0.8;
+    }
+    53% {
+        opacity: 0.4;
+    }
+    60% {
+        opacity: 0.75;
+    }
+    75% {
+        opacity: 0.5;
+    }
+    79% {
+        opacity: 0.55;
+    }
+    100% {
+        opacity: 0.1;
+    }
+}
+
+@keyframes rotate {
+    100% {
+        stroke-dasharray: 3200 0;
+    }
+}

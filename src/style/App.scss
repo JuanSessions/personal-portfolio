@@ -1,5 +1,14 @@
 .App {
-    text-align: center;
+    height: 100vh;
+    // text-align: center;
+    display: flex;
+    flex-direction: column;
+    //justify-content: flex-start;
+    //align-items: flex-end;
+    background-image: url("../images/portfolio-mask.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .App-logo {
@@ -14,7 +23,7 @@
 }
 
 .App-header {
-    background-color: #282c34;
+    background-color: #3d4453;
     min-height: 10vh;
     display: flex;
     flex-direction: column;
@@ -36,3 +45,48 @@
         transform: rotate(360deg);
     }
 }
+
+nav {
+    background-color: rgba(55, 55, 71, 0.7);
+    ul {
+        padding: 0.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        list-style-type: none;
+    }
+    a {
+        text-decoration: none;
+        color: rgb(240, 230, 230);
+    }
+    .active {
+        color: rgb(187, 145, 187);
+    }
+}
+
+// content container
+.content-container {
+    align-self: flex-end;
+    margin: 2rem 6rem 0rem 0rem;
+    padding: 1rem;
+    width: 35rem;
+    height: 65vh;
+    max-width: 50rem;
+    color: rgb(233, 220, 220);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+// contact 
+
+/*
+.contacts-container {
+    align-self: flex-end;
+    margin: 3rem 6rem 0rem 0rem;
+    padding: 1rem;
+    width: 35rem;
+    height: 60vh;
+    max-width: 50rem;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+*/

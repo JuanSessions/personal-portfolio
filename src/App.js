@@ -1,14 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './images/world-note.png';
 import './style/App.scss';
+import { BrowserRouter } from "react-router-dom"
+import Routes from './Routes';
+import Navbar from "./components/Navbar"
+import Countdown from './components/Countdown';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+        </header>
+        <Navbar />
+        <Routes />
+        <Countdown />
+
+      </div>
+    </BrowserRouter>
   );
 }
 
