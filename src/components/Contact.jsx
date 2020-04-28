@@ -5,8 +5,10 @@ function Contact() {
         <div className="content-container">
             <h2>Contact</h2>
 
-            <p>tretrez</p>
-            <p>tretrez</p><p>tretrez</p><p>tretrez</p>
+            <p>wordsHerewordsHerewordsHerewordsHerewordsHere</p>
+            <p>wordsHerewordsHerewordsHerewordsHerewordsHere</p>
+            <p>wordsHerewordsHerewordsHerewordsHerewordsHere</p>
+            <p>wordsHerewordsHerewordsHerewordsHerewordsHere</p>
 
 
         </div>

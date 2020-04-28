@@ -15,7 +15,9 @@ function App() {
         </header>
         <Navbar />
         <Routes />
+
         <Countdown />
+
 
       </div>
     </BrowserRouter>
