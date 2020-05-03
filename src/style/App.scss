@@ -57,24 +57,40 @@ nav {
         list-style-type: none;
     }
     a {
+        padding: 0.5rem 1rem;
         text-decoration: none;
+        font-weight: bold;
         color: rgb(240, 230, 230);
     }
     .active {
-        color: rgb(187, 145, 187);
+        color: rgb(235, 235, 240);
     }
 }
 
 // content container
-.content-container {
+.content-container-outer {
     align-self: flex-end;
     margin: 2rem 6rem 0rem 0rem;
-    padding: 1rem;
-    width: 35rem;
+    padding: 0.6rem;
+    width: 36rem;
     height: 65vh;
-    max-width: 50rem;
-    color: rgb(233, 220, 220);
+    // max-width: 50rem;
+    // color: rgb(233, 220, 220);
     background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0.75rem;
+}
+
+.content-container {
+    height: 26rem;
+    width: 34rem;
+    // margin-top: -8rem;
+    position: absolute;
+    top: 11rem;
+    padding: 0.5rem 1rem;
+    background: url('../images/film_grain-small.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 h1,

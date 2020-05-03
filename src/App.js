@@ -4,7 +4,7 @@ import './style/App.scss';
 import { BrowserRouter } from "react-router-dom"
 import Routes from './Routes';
 import Navbar from "./components/Navbar"
-import Countdown from './components/Countdown';
+// import Countdown from './components/Countdown';
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
         <Navbar />
         <Routes />
 
-        <Countdown />
+        {/* <Countdown /> */}
 
 
       </div>
