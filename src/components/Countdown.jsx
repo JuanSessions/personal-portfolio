@@ -21,16 +21,16 @@ function Countdown() {
                 <circle className="circle-inner circle01" cx="200" cy="112.5" r="85" />
                 <circle className="circle02 animated-rotate" cx="200" cy="112.5" r="494.5" />
                 <g className="numbers no-select" text-anchor="middle" >
-                    {/* <text className="animated-text1" x="200.5" y="155">10</text>
-                            <text className="animated-text2" x="200.5" y="155">9</text>
-                            <text className="animated-text3" x="200.5" y="155">8</text>
-                            <text className="animated-text4" x="200.5" y="155">7</text>
-                            <text className="animated-text5" x="200.5" y="155">6</text> */}
-                    <text className="animated-text6" x="200.5" y="155">5</text>
+                    <text className="animated-text1" x="200.5" y="155">5</text>
+                    <text className="animated-text2" x="200.5" y="155">4</text>
+                    <text className="animated-text3" x="200.5" y="155">3</text>
+                    <text className="animated-text4" x="200.5" y="155">2</text>
+                    <text className="animated-text5" x="200.5" y="155">1</text>
+                    {/* <text className="animated-text6" x="200.5" y="155">5</text>
                     <text className="animated-text7" x="200.5" y="155">4</text>
                     <text className="animated-text8" x="200.5" y="155">3</text>
                     <text className="animated-text9" x="200.5" y="155">2</text>
-                    <text className="animated-text10" x="200.5" y="155">1</text>
+                    <text className="animated-text10" x="200.5" y="155">1</text> */}
                 </g>
             </svg>
             {/* </div > */}

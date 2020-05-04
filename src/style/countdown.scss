@@ -59,7 +59,7 @@ svg {
 //     transition: opacity 1.5s;
 // }
 .numbers text {
-    fill: black;
+    fill: rgb(0, 0, 0);
     font: bold 120px Arial, sans-serif;
     letter-spacing: -10px;
     opacity: 0;
@@ -67,13 +67,13 @@ svg {
 
 .circle01 {
     fill: none;
-    stroke: #111;
+    stroke: rgba(83, 82, 82, 0.35);
     stroke-width: 1.5px;
 }
 
 .circle02 {
     fill: none;
-    stroke: rgba(0, 0, 0, 0.3);
+    stroke: rgba(87, 85, 85, 0.35);
     stroke-dasharray: 1 3200;
     stroke-width: 989;
     transform: rotate(-90deg);
@@ -99,7 +99,7 @@ svg {
 }
 
 .animated-rotate {
-    animation: rotate 1s 10;
+    animation: rotate 1s 5;
 }
 
 .animated-text1 {
@@ -127,31 +127,26 @@ svg {
     animation-delay: 4s;
 }
 
-.animated-text6 {
-    animation: countdown 1s 1;
-    animation-delay: 5s;
-}
-
-.animated-text7 {
-    animation: countdown 1s 1;
-    animation-delay: 6s;
-}
-
-.animated-text8 {
-    animation: countdown 1s 1;
-    animation-delay: 7s;
-}
-
-.animated-text9 {
-    animation: countdown 1s 1;
-    animation-delay: 8s;
-}
-
-.animated-text10 {
-    animation: countdown 1s 1;
-    animation-delay: 9s;
-}
-
+// .animated-text6 {
+//     animation: countdown 1s 1;
+//     animation-delay: 5s;
+// }
+// .animated-text7 {
+//     animation: countdown 1s 1;
+//     animation-delay: 6s;
+// }
+// .animated-text8 {
+//     animation: countdown 1s 1;
+//     animation-delay: 7s;
+// }
+// .animated-text9 {
+//     animation: countdown 1s 1;
+//     animation-delay: 8s;
+// }
+// .animated-text10 {
+//     animation: countdown 1s 1;
+//     animation-delay: 9s;
+// }
 @keyframes countdown {
     0% {
         opacity: 1;
