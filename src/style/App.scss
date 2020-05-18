@@ -20,7 +20,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
     .App-logo {
-        animation: App-logo-spin infinite 20s linear;
+        animation: App-logo-spin infinite 40s linear;
     }
 }
 
@@ -102,33 +102,95 @@ h2 {
     font: 70px 'LeagueGothicRegular';
 }
 
-// contact 
-
-/*
-.contacts-container {
-    align-self: flex-end;
-    margin: 3rem 6rem 0rem 0rem;
-    padding: 1rem;
-    width: 35rem;
-    height: 60vh;
-    max-width: 50rem;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-*/
-
-.icons {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    li {
-        i {
-            font-size: 3rem;
-            color: rgb(7, 54, 7);
-            // &:hover {
-            //     color: rgb(105, 8, 8);
-            //     font-size: 5rem;
-            // }
+//ABOUT
+.about {
+    h4 {
+        padding-left: 1.5rem;
+        //margin-top: 7.5rem;
+    }
+    .about-text {
+        margin-top: -2rem;
+        padding-left: 1.5rem;
+        padding-bottom: 0.2rem;
+    }
+    .icons {
+        padding: 0rem 1.2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        li {
+            i {
+                font-size: 3rem;
+                color: rgb(7, 54, 7);
+                &:hover {
+                    text-shadow: rgb(7, 54, 7) 1px 0 50px;
+                }
+            }
         }
     }
 }
+
+// PROJECTS
+.projects-container {
+    margin-top: -3rem;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    .project {
+        // width: 30%;
+        padding: 0rem 0.5rem;
+        text-align: center;
+        img {
+            width: 100%;
+            object-fit: contain;
+            &:hover {
+                box-shadow: rgb(28, 28, 63) 1px 0 60px;
+            }
+        }
+    }
+}
+
+//CONTACT
+.contact {
+    display: flex;
+    flex-direction: column;
+    .contact-icons {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        list-style: none;
+        a {
+            color: rgb(57, 8, 61);
+            text-decoration: none;
+            font-size: 3.5rem;
+            &:hover {
+                box-shadow: black 1px 0 40px;
+                background-color: gray;
+            }
+        }
+    }
+    .mail-btn {
+        color: rgb(57, 8, 61);
+        text-align: center;
+        border: 3px solid rgb(71, 74, 148);
+        border-radius: 0.5rem;
+        padding: 0.5rem 1rem;
+        text-decoration: none;
+        align-self: center;
+        margin-top: 2rem;
+        &:hover {
+            box-shadow: black 1px 0 40px;
+        }
+    }
+}
+
+// iframe {
+//     position: absolute;
+//     bottom: 1.2rem;
+//     right: 0.2rem;
+//     width: 30rem;
+//     height: 19rem;
+//     -webkit-transform: scale(0.9);
+//     -webkit-transform: -moz-transform-scale(0.9);
+// }

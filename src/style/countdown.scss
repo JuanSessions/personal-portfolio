@@ -44,6 +44,7 @@ svg {
     width: 35.7rem;
     height: 61vh;
     // max-width: 50rem;
+    z-index: 0;
 }
 
 // .message-container text {
@@ -62,7 +63,7 @@ svg {
     fill: rgb(0, 0, 0);
     font: bold 120px Arial, sans-serif;
     letter-spacing: -10px;
-    opacity: 0;
+    opacity: 0.03;
 }
 
 .circle01 {

@@ -1,9 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../style/countdown.scss';
+import countdown from "../js/countdown"
 
 
 function Countdown() {
-    // countdown()
+    countdown()
+
     return (
         <div className="countdown-container">
             {/* <div className="film-container"> */}

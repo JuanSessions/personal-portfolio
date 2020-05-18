@@ -7,7 +7,7 @@ function Home() {
             <div className="content-container">
                 <h1>Juan Sessions</h1>
                 <h2>Web Developer</h2>
-                <p>Just want to create and be part of a dynamic and interesting team, cause I'm sooooo good and such a good person, I mean, wow.</p>
+                <p>Just want to create and be part of a dynamic and interesting team.</p>
                 <Countdown />
             </div>
 

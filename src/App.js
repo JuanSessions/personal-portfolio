@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './images/world-note.png';
+import logo from './images/brain.png';
 import './style/App.scss';
 import { BrowserRouter } from "react-router-dom"
 import Routes from './Routes';

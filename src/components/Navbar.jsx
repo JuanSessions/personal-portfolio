@@ -2,10 +2,10 @@ import React from 'react';
 import { NavLink } from "react-router-dom";
 import '../style/navLinksEffect.scss';
 import useSound from "use-sound";
-import ButtonSound from "../sounds/cameraClick.mp3";
+import ButtonSound from "../sounds/templeBell.mp3";
 
 function Navbar() {
-    const [playActive] = useSound(ButtonSound, { volume: 0.50 });
+    const [playActive] = useSound(ButtonSound, { volume: 0.35 });
     return (
         <nav>
             <ul className="section">
