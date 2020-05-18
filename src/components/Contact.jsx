@@ -5,7 +5,7 @@ import ImgSound from "../sounds/flyby.mp3";
 
 function Contact() {
 
-    const [playActive] = useSound(ImgSound, { volume: 0.40 });
+    const [playActive] = useSound(ImgSound, { volume: 0.50 });
     return (
         <div className="content-container-outer">
             <div className="content-container contact">
