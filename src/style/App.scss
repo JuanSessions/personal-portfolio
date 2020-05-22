@@ -1,11 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
 .App {
     height: 100vh;
-    // text-align: center;
     display: flex;
     flex-direction: column;
-    //justify-content: flex-start;
-    //align-items: flex-end;
     background-image: url("../images/portfolio-mask.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -76,15 +73,13 @@ nav {
     padding: 0.6rem;
     width: 36rem;
     height: 65vh;
-    // max-width: 50rem;
-    // color: rgb(233, 220, 220);
     background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 6px;
 }
 
 .content-container {
     height: 26rem;
     width: 34rem;
-    // margin-top: -8rem;
     position: absolute;
     top: 11rem;
     padding: 0.5rem 1rem;
@@ -124,7 +119,8 @@ h2 {
                 font-size: 3rem;
                 color: rgb(7, 54, 7);
                 &:hover {
-                    text-shadow: rgb(7, 54, 7) 1px 0 50px;
+                    -webkit-transform: rotate(360deg);
+                    -webkit-transition-duration: 0.2s;
                 }
             }
         }
@@ -144,8 +140,9 @@ h2 {
         img {
             width: 100%;
             object-fit: contain;
+            border-radius: 7px;
             &:hover {
-                box-shadow: rgb(28, 28, 63) 1px 0 60px;
+                box-shadow: 0px 0px 50px 21px black;
             }
         }
     }
@@ -165,7 +162,7 @@ h2 {
             text-decoration: none;
             font-size: 3.5rem;
             &:hover {
-                box-shadow: black 1px 0 40px;
+                box-shadow: 0px 0px 50px 27px rgba(0, 0, 0, 0.75);
                 background-color: gray;
             }
         }
@@ -180,9 +177,22 @@ h2 {
         align-self: center;
         margin-top: 2rem;
         &:hover {
-            box-shadow: black 1px 0 40px;
+            box-shadow: 0px 0px 50px 27px rgba(0, 0, 0, 0.75);
         }
     }
+}
+
+// Audio Player
+.react-audio-player {
+    height: 2.3rem;
+    margin-left: -34rem;
+    margin-top: 2rem;
+    border-radius: 20px;
+    box-shadow: 0px 0px 50px 27px rgb(49, 47, 47);
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: rgba(59, 59, 90, 0.5)
 }
 
 // iframe {

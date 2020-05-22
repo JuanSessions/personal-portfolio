@@ -5,7 +5,7 @@ import useSound from "use-sound";
 import ButtonSound from "../sounds/templeBell.mp3";
 
 function Navbar() {
-    const [playActive] = useSound(ButtonSound, { volume: 0.35 });
+    const [playActive] = useSound(ButtonSound, { volume: 0.30 });
     return (
         <nav>
             <ul className="section">
