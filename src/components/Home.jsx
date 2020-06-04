@@ -13,7 +13,7 @@ function Home() {
                 <h1>Juan Sessions</h1>
                 <h2>Web Developer</h2>
                 <h3>Just want to create and be part of a dynamic and interesting team.</h3>
-                <i class="far fa-play-circle"> Meanwhile..U can use the audio player and hear a JuanSessions soundtrack</i>
+                <i class="far fa-play-circle"> Meanwhile..U can use the audio player & hear a JuanSessions soundtrack</i>
 
                 <Countdown />
             </div>
