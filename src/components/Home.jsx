@@ -4,7 +4,6 @@ import ImgSound from "../sounds/soundTrack.wav";
 import ReactAudioPlayer from 'react-audio-player';
 
 
-
 function Home() {
 
     return (

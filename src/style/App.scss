@@ -10,50 +10,52 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
-.App-logo {
-    height: 10vmin;
-    pointer-events: none;
+.trigger {
+    background-image: url("../images/juanEar.jpg");
+    background-size: cover;
+    height: 4.5rem;
+    border-radius: 12px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-        animation: App-logo-spin infinite 40s linear;
+@keyframes fadeIn {
+    from {
+        opacity: 0;
     }
 }
 
+.App-logo {
+    height: 4.5rem;
+    transition: transform 300ms ease-in-out;
+    pointer-events: none;
+    /* Add the blur effect */
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+    animation: fadeIn 5s infinite alternate;
+}
+
 .App-header {
+    h4 {
+        padding: 0.6rem;
+        letter-spacing: 1rem;
+        font-family: 'Ubuntu', sans-serif;
+        color: rgb(98, 98, 112);
+    }
     background-color: #262c35;
     min-height: 10vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    font-size: calc(10px + 2vmin);
+    font-size: calc(10px+2vmin);
     color: white;
+}
+
+.sessions {
+    margin-left: 1rem;
 }
 
 .App-link {
     color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-    10%,
-    90% {
-        transform: translate3d(-1px, 0, 0);
-    }
-    20%,
-    80% {
-        transform: translate3d(2px, 0, 0);
-    }
-    30%,
-    50%,
-    70% {
-        transform: translate3d(-4px, 0, 0);
-    }
-    40%,
-    60% {
-        transform: translate3d(4px, 0, 0);
-    }
 }
 
 nav {
