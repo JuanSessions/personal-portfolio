@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "96cf42c05580f92735a2b849a5c1b681",
+    "revision": "1479bd8f2a80df4b08faa4af2ffa789a",
     "url": "./index.html"
   },
   {
-    "revision": "d915d80ba371fffd6890",
-    "url": "./static/css/main.7ff2fbb9.chunk.css"
+    "revision": "906fcfc037c500174414",
+    "url": "./static/css/main.6fcf2625.chunk.css"
   },
   {
     "revision": "298bd9d3aab9b5f8738a",
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/js/3.7b82a7a9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d915d80ba371fffd6890",
-    "url": "./static/js/main.97a2536e.chunk.js"
+    "revision": "906fcfc037c500174414",
+    "url": "./static/js/main.eba8694c.chunk.js"
   },
   {
     "revision": "d4fa2d99d9aa7029e062",
@@ -34,10 +34,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7a8991a58173dccc5ec1ecef319e2025",
     "url": "./static/media/bookShop.7a8991a5.png"
-  },
-  {
-    "revision": "ca0c1ba202362938e4188fb5539b2236",
-    "url": "./static/media/brain.ca0c1ba2.png"
   },
   {
     "revision": "83239ad2ef5220ad267479cd0898e58c",
@@ -54,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "cfee114b0b3de28827b98bee2ac0d6f0",
     "url": "./static/media/icons8-mongodb.cfee114b.svg"
+  },
+  {
+    "revision": "2b23193fe60c798e73b8a8c688d03fee",
+    "url": "./static/media/juanEar.2b23193f.jpg"
   },
   {
     "revision": "2dd8edafb3450c91e18b7b4d7843940b",
