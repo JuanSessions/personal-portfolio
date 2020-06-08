@@ -11,7 +11,7 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <header className="App-header">
-          <h4>Juan</h4>
+          <h4 className="juan">Juan</h4>
           <div className="trigger">
 
             <img src={logo} className="App-logo" alt="logo" />
