@@ -221,3 +221,34 @@ audio::-webkit-media-controls-panel {
 //     -webkit-transform: scale(0.9);
 //     -webkit-transform: -moz-transform-scale(0.9);
 // }
+
+/* responsive ============== */
+
+
+/* Small devices */
+
+@media only screen and (min-width: 600px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-basis: 100%;
+    }
+    .column {
+        flex-basis: 50%;
+    }
+}
+
+
+/* Large devices  */
+
+@media only screen and (min-width: 992px) {
+    .column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-basis: 22%;
+    }
+}

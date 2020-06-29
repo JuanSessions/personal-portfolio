@@ -9,7 +9,7 @@ function About() {
                 <h2>About</h2>
                 <div className="about-text">
                     <p>Hello, I'm Juan,</p>
-                    <p>just finished my first studies as a full stack web developer, but ready to keep learning, to work in a team bringing my will and creativity to the table. </p>
+                    <p>I've just finished my first studies as a full stack web developer, but I'm ready to keep learning, to work in a team bringing my will and creativity to the table. </p>
                 </div>
                 <h4>Skills</h4>
                 <ul className="icons">
