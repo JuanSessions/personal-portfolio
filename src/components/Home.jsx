@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react"
 import Countdown from "./Countdown"
 import ImgSound from "../sounds/soundTrack.wav";
-import ReactAudioPlayer from 'react-audio-player';
+import ReactAudioPlayer from  "react-audio-player";
 
 
 function Home() {

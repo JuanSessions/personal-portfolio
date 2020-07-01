@@ -1,10 +1,15 @@
-import React, { useState } from 'react'
+import React, { useEffect } from 'react'
 import '../style/countdown.scss';
 import countdown from "../js/countdown"
+import { withRouter } from "react-router-dom"
 
 
-function Countdown() {
-    countdown()
+
+function Countdown(props) {
+    useEffect(() => {
+        countdown()
+    }, [])
+    
 
     return (
         <div className="countdown-container">
@@ -49,4 +54,4 @@ function Countdown() {
     )
 }
 
-export default Countdown
+export default withRouter(Countdown)
