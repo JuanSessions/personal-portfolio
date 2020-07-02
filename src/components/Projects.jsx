@@ -22,8 +22,9 @@ function Projects() {
 
                     <div className="project">
                         <h3>Musician Portfolio</h3>
+                        <img src={img1} alt="" width="250" onClick={playActive} />
                         <a href="https://juansessions.github.io/musician-portfolio/" target="_blanc">
-                            <img src={img1} alt="" width="250" onClick={playActive} />
+                            visit
                         </a>
                     </div>
 
