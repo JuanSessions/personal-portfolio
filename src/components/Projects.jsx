@@ -28,10 +28,11 @@ function Projects() {
                     </div>
 
                     <div className="project">
-                        <h3>Template Artist Portfolio</h3>
+                        <h3>Artist Portfolio</h3>
                         <a href="https://juansessions.github.io/musician-portfolio/" target="_blanc">
                             <img src={img1} alt="" width="200" onClick={playActive} />
                         </a>
+                        <h3>Original template created</h3>
                     </div>
 
 
