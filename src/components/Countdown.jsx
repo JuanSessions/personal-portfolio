@@ -23,7 +23,7 @@ function Countdown(props) {
                 </svg> */}
             <svg className="film-countdown" version="1.1" xmlns="http://www.w3.org/2000/svg"
                 xmlnsXlink="http://www.w3.org/1999/xlink" xmlSpace="preserve"
-                width="80%" height="80%" viewBox="0 0 400 225">
+                width="500" height="300" viewBox="0 0 400 225">
                 <circle className="circle-outer circle01" cx="200" cy="112.5" r="95" />
                 <circle className="circle-inner circle01" cx="200" cy="112.5" r="85" />
                 <circle className="circle02 animated-rotate" cx="200" cy="112.5" r="494.5" />

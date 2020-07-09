@@ -14,7 +14,7 @@ function Contact() {
                 <ul className="contact-icons">
                     <li><a href="https://github.com/JuanSessions" target="_blanc"><i class="fab fa-github-square" onClick={playActive}></i></a></li>
                     <li><a href="https://www.linkedin.com/in/juan-perusin-a708101a6/" target="_blanc"><i class="fab fa-linkedin" onClick={playActive}></i></a></li>
-                    <li><a href="https://codepen.io/juansessions" target="_blanc"><i class="fab fa-codepen" onClick={playActive}></i></a></li>
+                    <li><a href="https://juansessions.bandcamp.com/releases" target="_blanc"><i class="fa fa-bandcamp" aria-hidden="true" onClick={playActive}></i></a></li>
                 </ul>
 
                 <a href="mailto:juansessions@live.com" className="mail-btn">send me an email</a>
