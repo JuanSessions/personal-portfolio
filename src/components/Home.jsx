@@ -8,13 +8,16 @@ function Home() {
 
     return (
         <div className="content-container-outer">
-            <div className="content-container">
+            <div className="content-container home">
+                <div className="content-rotate">
                 <h1>Juan Sessions</h1>
                 <h2>Web Developer</h2>
+                <div className="p-text-home">
                 <h3>Just want to create and be part of a dynamic and interesting team.</h3>
                 <i class="far fa-play-circle"> Meanwhile..U can use the audio player & hear a JuanSessions soundtrack</i>
-
+                    </div>
                 <Countdown />
+                </div>
             </div>
             <ReactAudioPlayer
                 src={ImgSound}

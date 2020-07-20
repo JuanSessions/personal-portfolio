@@ -9,6 +9,7 @@ function Contact() {
     return (
         <div className="content-container-outer">
             <div className="content-container contact">
+                <div className="content-rotate">
                 <h2>Contact</h2>
 
                 <ul className="contact-icons">
@@ -18,6 +19,7 @@ function Contact() {
                 </ul>
 
                 <a href="mailto:juansessions@live.com" className="mail-btn">send me an email</a>
+                </div>
             </div >
         </div >
     )

@@ -15,7 +15,8 @@ function Projects() {
 
     return (
         <div className="content-container-outer">
-            <div className="content-container">
+            <div className="content-container projects">
+                <div className="content-rotate">
                 <h2>Projects</h2>
 
                 <div className="projects-container">
@@ -39,14 +40,14 @@ function Projects() {
                     <div className="project">
                         <h3>ToDo App</h3>
                         <a href="https://juansessions.github.io/TODO-APP/#/" target="_blanc">
-                            <img src={img2} alt="" width="150" onClick={playActive} />
+                            <img src={img2} className="todo-img" alt="" width="150" onClick={playActive} />
                         </a>
                     </div>
 
                 </div>
 
                 {/* <Countdown visible={visible} /> */}
-
+                </div>
             </div>
         </div>
     )

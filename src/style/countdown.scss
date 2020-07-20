@@ -2,36 +2,6 @@ svg {
     display: inline-block;
 }
 
-// .no-select {
-//     cursor: default;
-//     -moz-user-select: none;
-//     -ms-user-select: none;
-//     -webkit-user-select: none;
-//     user-select: none;
-// }
-// .film-container {
-//     width: 50%;
-//     height: 100%;
-//     background: url('//res.cloudinary.com/thdoan/image/upload/v1509581279/countdown/film_grain-small.gif') no-repeat;
-//     background-size: 80% 80%;
-//     position: absolute;
-//     top: -20px;
-//     left: 0;
-// }
-// .film-countdown,
-// .countdown-container {
-//     position: absolute;
-//     top: 10px;
-//     left: 50%;
-//     // width: 50%;
-//     // height: 80%;
-//     align-self: flex-end;
-//     // margin: 2rem 6rem 0rem 0rem;
-//     // padding: 1rem;
-//     width: 35rem;
-//     // height: 65vh;
-//     // max-width: 50rem;
-// }
 .film-countdown {
     position: absolute;
     top: 1.5rem;
@@ -45,23 +15,14 @@ svg {
     height: 61vh;
     // max-width: 50rem;
     z-index: 0;
-    @media only screen and (max-width: 800px) {
-        width: 30rem;
+    @media only screen and (max-width: 600px) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 16.5rem;
     }
 }
 
-// .message-container text {
-//     font: normal 28px Calibri, sans-serif;
-//     opacity: 0;
-// }
-// body.message .film-container {
-//     opacity: 0;
-//     transition: opacity 1.5s;
-// }
-// body.message .message-container text {
-//     opacity: 1;
-//     transition: opacity 1.5s;
-// }
 .numbers text {
     fill: rgb(0, 0, 0);
     font: bold 120px Arial, sans-serif;
