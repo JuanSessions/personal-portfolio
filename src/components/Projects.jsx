@@ -22,7 +22,7 @@ function Projects() {
                 <div className="projects-container">
                     <div className="project">
                         <h3>Virtual Music Room</h3>
-                        <a href="http://161.35.217.162" target="_blanc">
+                            <a href="http://virtualmusicroom.site/" target="_blanc">
                             <img src={img3} alt="" width="260" onClick={playActive} />
                         </a>
                         <h3>Final project full stack</h3>
