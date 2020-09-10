@@ -1,52 +1,39 @@
 import React, { useState } from 'react'
-import Countdown from "./Countdown"
-import img1 from "../images/musician-portfolio.png"
-import img2 from "../images/todoapp.png"
-import img3 from "../images/ScreenshotVMR.png"
-import useSound from "use-sound";
-import ImgSound from "../sounds/cameraClick.mp3";
+// import Countdown from "./Countdown"
+import projects from '../projects.js'
+import Project from './Project'
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+const Carousel = require('react-responsive-carousel').Carousel;
 
 
 function Projects() {
-    const [visible, setVisible] = useState(true)
-    const [playActive] = useSound(ImgSound, { volume: 0.40 });
-
-    console.log("project - visible:", visible);
+    const [data, setData] = useState(projects)
+    // const [visible, setVisible] = useState(true)
 
     return (
         <div className="content-container-outer">
             <div className="content-container projects">
                 <div className="content-rotate">
-                <h2>Projects</h2>
-
-                <div className="projects-container">
-                    <div className="project">
-                        <h3>Virtual Music Room</h3>
-                            <a href="http://virtualmusicroom.site/" target="_blanc">
-                            <img src={img3} alt="" width="260" onClick={playActive} />
-                        </a>
-                        <h3>Final project full stack</h3>
+               {/** <h2>Projects</h2>  */}
+                    <div className="projects-container">
+                    <Carousel
+                        showArrows={true}
+                        showStatus={false}
+                        autoPlay={true}
+                        infiniteLoop={true}
+                        showThumbs={false}
+                        stopOnHover={false}
+                        interval={7000}
+                        transitionTime={900}
+                        className="carousel"
+                    >
+                        {
+                            data.slice(0, 9).map((data, i) =>
+                                <Project key={i} project={data} />
+                            )
+                        }
+                    </Carousel>
                     </div>
-
-                    <div className="project">
-                        <h3>Artist Portfolio</h3>
-                        <a href="https://juansessions.github.io/musician-portfolio/" target="_blanc">
-                            <img src={img1} alt="" width="200" onClick={playActive} />
-                        </a>
-                        <h3>Original template created</h3>
-                    </div>
-
-
-                    <div className="project">
-                        <h3>ToDo App</h3>
-                        <a href="https://juansessions.github.io/TODO-APP/#/" target="_blanc">
-                            <img src={img2} className="todo-img" alt="" width="150" onClick={playActive} />
-                        </a>
-                    </div>
-
-                </div>
-
-                {/* <Countdown visible={visible} /> */}
                 </div>
             </div>
         </div>
