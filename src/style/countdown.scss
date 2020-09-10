@@ -15,12 +15,6 @@ svg {
     height: 61vh;
     // max-width: 50rem;
     z-index: 0;
-    @media only screen and (max-width: 600px) {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 16.5rem;
-    }
 }
 
 .numbers text {

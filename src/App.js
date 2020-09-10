@@ -22,9 +22,6 @@ function App() {
         <Navbar />
         <Routes />
 
-        {/* <Countdown /> */}
-
-
       </div>
     </HashRouter>
   );
