@@ -1,39 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "65b59b6a7307fd7dd0f695e0a1969481",
+    "revision": "1f082d851f64548ca57cdaebf1bbd1d3",
     "url": "./index.html"
   },
   {
-    "revision": "0c417708896e20f0a44c",
-    "url": "./static/css/main.a67baf47.chunk.css"
+    "revision": "bef2a58741fe4c16f112",
+    "url": "./static/css/2.c7661d7b.chunk.css"
   },
   {
-    "revision": "25536c3c2bd713f4c9f6",
-    "url": "./static/js/2.c17afc92.chunk.js"
+    "revision": "38bbc547eb816eb90c4b",
+    "url": "./static/css/main.2a120a0d.chunk.css"
   },
   {
-    "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "./static/js/2.c17afc92.chunk.js.LICENSE.txt"
+    "revision": "bef2a58741fe4c16f112",
+    "url": "./static/js/2.7ab70ae5.chunk.js"
   },
   {
-    "revision": "581955222309f28d86a5",
-    "url": "./static/js/3.7b82a7a9.chunk.js"
+    "revision": "3453b8997016469371284a28c0e873e2",
+    "url": "./static/js/2.7ab70ae5.chunk.js.LICENSE.txt"
+  },
+  {
+    "revision": "c9fcb6f5e4af7492d687",
+    "url": "./static/js/3.28fae0d1.chunk.js"
   },
   {
     "revision": "11632a58e510552bf3ae8fe3d05874e6",
-    "url": "./static/js/3.7b82a7a9.chunk.js.LICENSE.txt"
+    "url": "./static/js/3.28fae0d1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0c417708896e20f0a44c",
-    "url": "./static/js/main.331bb9cc.chunk.js"
+    "revision": "38bbc547eb816eb90c4b",
+    "url": "./static/js/main.66748e4c.chunk.js"
   },
   {
-    "revision": "d4fa2d99d9aa7029e062",
-    "url": "./static/js/runtime-main.9bd41402.js"
-  },
-  {
-    "revision": "e7c0e06f80645d8b5da329b42e01c38f",
-    "url": "./static/media/ScreenshotVMR.e7c0e06f.png"
+    "revision": "96e9ee097e68a73f3d53",
+    "url": "./static/js/runtime-main.95d72b4e.js"
   },
   {
     "revision": "83239ad2ef5220ad267479cd0898e58c",
@@ -56,10 +56,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/juanEar.2b23193f.jpg"
   },
   {
-    "revision": "2dd8edafb3450c91e18b7b4d7843940b",
-    "url": "./static/media/musician-portfolio.2dd8edaf.png"
-  },
-  {
     "revision": "fe7a1614ff181af8ee44f81a52d41815",
     "url": "./static/media/portfolio-mask.fe7a1614.jpg"
   },
@@ -70,9 +66,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ed093146ef132fcf22f1b5fa296c3d60",
     "url": "./static/media/templeBell.ed093146.mp3"
-  },
-  {
-    "revision": "22dd50726d656ec447840b21f892aaf1",
-    "url": "./static/media/todoapp.22dd5072.png"
   }
 ]);
