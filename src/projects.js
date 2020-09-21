@@ -16,6 +16,14 @@ const projects = [{
     },
     {
         id: 3,
+        name: "Responsive-React-App",
+        description: "Responsive App",
+        img: "./img/react-resp.png",
+        link: "https://juansessions.github.io/react-responsive/",
+        github: ""
+    },
+    {
+        id: 4,
         name: "Bike Store App",
         description: "Mobile App",
         img: "./img/BikeStoreApp.jpg",
@@ -23,21 +31,14 @@ const projects = [{
         github: ""
     },
     {
-        id: 4,
+        id: 5,
         name: "ToDo",
         description: "Exercises",
         img: "./img/todoapp.png",
         link: "https://juansessions.github.io/TODO-APP/#/",
         github: ""
     },
-    // {
-    //     id: 5,
-    //     name: "",
-    //     description: "",
-    //     img: "./img/",
-    //     link: "",
-    //     github: ""
-    // }
+
 ]
 
 export default projects
