@@ -27,7 +27,7 @@ const projects = [{
         name: "Bike Store App",
         description: "Mobile App",
         img: "./img/BikeStoreApp.jpg",
-        link: "https://juansessions.github.io/BikeStoreApp/",
+        link: "https://juansessions.github.io/mobile-display/",
         github: ""
     },
     {
