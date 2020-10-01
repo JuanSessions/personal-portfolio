@@ -1,7 +1,7 @@
 const projects = [{
         id: 1,
         name: "Virtual Music Room",
-        description: "Interactive Music sharing (full stack)",
+        description: "Interactive Music Sharing (Full Stack)",
         img: "./img/ScreenshotVMR.png",
         link: "http://virtualmusicroom.site/",
         github: ""
@@ -17,7 +17,7 @@ const projects = [{
     {
         id: 3,
         name: "Responsive-React-App",
-        description: "Responsive App",
+        description: "Audio-Visual Products App",
         img: "./img/react-resp.png",
         link: "https://juansessions.github.io/react-responsive/",
         github: ""
