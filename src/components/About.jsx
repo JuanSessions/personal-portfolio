@@ -9,8 +9,8 @@ function About() {
                 <div className="content-rotate">
                 <h2>About</h2>
                 <div className="about-text">
-                    <p>Hello, I'm Juan.</p>
-                        <p>I finished my first studies as a full stack web developer, but I'm ready to keep learning, to work in a team bringing my will and creativity to the table. My strong suit so far is the frontend.</p>
+                    <p></p>
+                        <p>I finished my first studies as a full stack web developer. I'm ready to keep learning, working in a creative team, bringing my will and creativity to the table. I stay active working on different projects constantly. My strong suit so far is the frontend.</p>
                 </div>
                 <h4>Skills</h4>
                 <ul className="icons">
