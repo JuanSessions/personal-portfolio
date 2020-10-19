@@ -10,7 +10,7 @@ function About() {
                 <h2>About</h2>
                 <div className="about-text">
                     <p></p>
-                        <p>I finished my first studies as a full stack web developer. I'm ready to keep learning, working in a creative team, bringing my will and creativity to the table. I stay active working on different projects constantly. My strong suit so far is the frontend.</p>
+                        <p>I've finished my first studies as a full stack web developer. I'm ready to keep learning, bringing my will and creativity to the table in a creative team. I stay active working on different projects CONSTANTLY. My strong suit so far is the frontend.</p>
                 </div>
                 <h4>Skills</h4>
                 <ul className="icons">
