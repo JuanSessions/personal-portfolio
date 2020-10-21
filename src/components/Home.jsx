@@ -10,7 +10,7 @@ function Home() {
         <div className="content-container-outer">
             <div className="content-container home">
                 <div className="content-rotate">
-                <h1>Juan Sessions</h1>
+                <h1>juanSessions</h1>
                 <h2>Web Developer</h2>
                 <div className="p-text-home">
                 <h3>Always the same goals: create and be part of a dynamic and interesting team anywhere.</h3>
