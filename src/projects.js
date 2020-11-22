@@ -8,10 +8,10 @@ const projects = [{
     },
     {
         id: 2,
-        name: "Artist Portfolio",
-        description: "Original Template",
-        img: "./img/musician-portfolio.png",
-        link: "https://juansessions.github.io/musician-portfolio/",
+        name: "3D Javascript with React",
+        description: "3d Js, Audio Js, React",
+        img: "./img/screenshot3D.png",
+        link: "https://juansessions.github.io/3d-javascript-react/",
         github: ""
     },
     {
@@ -24,21 +24,20 @@ const projects = [{
     },
     {
         id: 4,
+        name: "Artist Portfolio",
+        description: "Original Template",
+        img: "./img/musician-portfolio.png",
+        link: "https://juansessions.github.io/musician-portfolio/",
+        github: ""
+    },
+    {
+        id: 5,
         name: "Bike Store App",
         description: "Mobile App",
         img: "./img/BikeStoreApp.jpg",
         link: "https://juansessions.github.io/mobile-display/",
         github: ""
-    },
-    {
-        id: 5,
-        name: "ToDo",
-        description: "Exercises",
-        img: "./img/todoapp.png",
-        link: "https://juansessions.github.io/TODO-APP/#/",
-        github: ""
-    },
-
+    }
 ]
 
 export default projects
