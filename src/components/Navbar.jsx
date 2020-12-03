@@ -37,13 +37,6 @@ function Navbar() {
         </nav>
 
 
-        // <div class="section">
-        //     <div class="section__box">
-        //         <button class="r-button ai-element ai-element_type1 ai-element5">
-        //             <span class="ai-element__label">here button</span>
-        //         </button>
-        //     </div>
-        // </div>
 
     )
 }
