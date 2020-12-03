@@ -9,7 +9,7 @@ const projects = [{
     {
         id: 2,
         name: "3D Javascript with React",
-        description: "3d Js, Audio Js, React",
+        description: "3D Js, Audio Js, React",
         img: "./img/screenshot3D.png",
         link: "https://juansessions.github.io/3D-JavaScript-React/",
         github: ""
